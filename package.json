@@ -1,6 +1,6 @@
 {
   "name": "easy-fixture",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "This module will help you to manage you fixtures",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/ivpusic/easy-fixture/issues"
   },
-  "homepage": "https://github.com/ivpusic/easy-fixture",
-  "dependencies": {
-    "q": "~1.0.1"
-  }
+  "homepage": "https://github.com/ivpusic/easy-fixture"
 }

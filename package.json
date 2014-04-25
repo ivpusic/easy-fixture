@@ -1,0 +1,30 @@
+{
+  "name": "easy-fixture",
+  "version": "0.0.0",
+  "description": "This module will help you to manage you fixtures",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ivpusic/easy-fixture.git"
+  },
+  "keywords": [
+    "fixture",
+    "test",
+    "data",
+    "node",
+    "easy",
+    "fixtures"
+  ],
+  "author": "Ivan Pusic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivpusic/easy-fixture/issues"
+  },
+  "homepage": "https://github.com/ivpusic/easy-fixture",
+  "dependencies": {
+    "q": "~1.0.1"
+  }
+}

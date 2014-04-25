@@ -1,6 +1,8 @@
 'use strict';
 
-var manager = null;
+var Q = require('q');
+
+var managers = [];
 
 module.exports = {
   Base: require('./lib/base'),
@@ -10,14 +12,22 @@ module.exports = {
       throw new Error('Plase provide instance of Base fixture class, with implemented interface.');
     }
 
-    manager = fixtureManager;
+    managers.push(fixtureManager);
   },
 
   save: function () {
-    return manager._save();
+    var reqs = managers.map(function (manager) {
+      return manager._save();
+    });
+
+    return Q.all(reqs);
   },
 
   load: function () {
-    return manager._load();
+    var reqs = managers.map(function (manager) {
+      return manager._load();
+    });
+
+    return Q.all(reqs);
   }
 };

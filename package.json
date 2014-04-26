@@ -1,6 +1,6 @@
 {
   "name": "easy-fixture",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "This module will help you to manage you fixtures",
   "main": "index.js",
   "scripts": {

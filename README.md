@@ -13,9 +13,11 @@ To make things easier, for each fixture manager there should be `grunt`/`gulp` t
 
 ### Available managers:
 - [easy-mongo-fixture](https://github.com/ivpusic/easy-mongo-fixture)
+- [easy-postgresql-fixture](https://github.com/ivpusic/easy-postgresql-fixture)
 
 ### Available Grunt tasks:
 - [grunt-easy-mongo-fixture](https://github.com/ivpusic/grunt-easy-mongo-fixture)
+- [grunt-easy-postgresql-fixture](https://github.com/ivpusic/grunt-easy-postgresql-fixture)
 
 ### Making custom fixture manager
 

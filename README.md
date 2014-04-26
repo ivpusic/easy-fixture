@@ -11,8 +11,11 @@ After that you will be able to load fixtures from that file into your database.
 
 To make things easier, for each fixture manager there should be `grunt`/`gulp` task which makes this task even easier.
 
-### Available managers
-- [Mongo](https://github.com/ivpusic/easy-mongo-fixture)
+### Available managers:
+- [easy-mongo-fixture](https://github.com/ivpusic/easy-mongo-fixture)
+
+### Available Grunt tasks:
+- [grunt-easy-mongo-fixture](https://github.com/ivpusic/grunt-easy-mongo-fixture)
 
 ### Making custom fixture manager
 

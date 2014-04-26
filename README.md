@@ -42,7 +42,8 @@ CustomFixtureManager.prototype._load = function () {
  * THIS METHOD SHOULD RETURN PROMISE
  */
 CustomFixtureManager.prototype._save = function () {
-  // implementation of method for collectiong data from database source, and saving it into local file(s).
+  // implementation of method for collectiong data from database source, 
+  // and saving it into local file(s).
 };
 ```
 
